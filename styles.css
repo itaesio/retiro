@@ -1,0 +1,109 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #000; /* Fundo preto */
+    color: #fff; /* Cor do texto principal */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #333; /* Cor de fundo do conteúdo */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Sombra suave */
+    transition: box-shadow 0.3s; /* Transição suave */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px;
+    width: 150px; /* Tamanho da logo */
+    transition: transform 0.3s; /* Transição suave */
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Efeito de escala ao passar o mouse */
+}
+
+h1 {
+    font-size: 32px;
+    color: #fff; /* Cor do título principal */
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 15px 0;
+    border-bottom: 1px solid #555; /* Linha divisória entre os itens */
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.checkbox-container {
+    margin-right: 10px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.checkbox-container input[type="checkbox"]:checked + span {
+    color: #4CAF50; /* Cor verde para o texto quando selecionado */
+}
+
+#adicionar-item {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#adicionar-item input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #555; /* Cor de fundo do campo de texto */
+    color: #fff; /* Cor do texto */
+}
+
+#adicionar-item button {
+    padding: 10px 20px;
+    background-color: #6c5ce7; /* Cor do botão Adicionar */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Transição suave */
+    box-shadow: 0 4px 6px rgba(108, 92, 231, 0.3); /* Sombra */
+}
+
+#adicionar-item button:hover {
+    background-color: #4a3dc8; /* Cor do botão Adicionar ao passar o mouse */
+}
